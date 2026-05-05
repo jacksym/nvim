@@ -23,6 +23,7 @@ vim.opt.scrolloff = 3
 vim.opt.wildmenu = true
 require("ginit")
 require("keymap")
+require("lsp")
 -- vim.opt.colorcolumn = "80"
 
 if vim.fn.has("win32") == 1 or vim.fn.has("win64") == 1 then
